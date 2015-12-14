@@ -16,28 +16,12 @@ my $inter = $ARGV[1];
 my $times = $ARGV[2];
 ##All the possible weekly sampling methods for all these daily data
 my %week;
-for(my $shift = 1; $shift <= ($inter -1); $shift++ ){
+for(my $shift = 1; $shift <= ($inter); $shift++ ){
 	for(my $i=0; $i <= $times; $i++){
 		my $o = $inter * $i + $shift;
 		$week{$shift}{$o} = 1;
 	}
 }
-
-=head
-my @biweek;
-$inter = 14;
-for(my $i=0; $i <= 18; $i++){
-        my $o = $inter * $i + 1;
-        push @biweek, $o;
-}
-
-my @month;
-$inter = 30;
-for(my $i=0; $i <= 9; $i++){
-        my $o = $inter * $i + 1;
-        push @month, $o;
-}
-=cut
 
 my %obtain;
 die "$! \n" unless open(I,"$ARGV[0]");
