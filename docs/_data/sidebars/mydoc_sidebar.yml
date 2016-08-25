@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: Step by step guidence
-  version: 0.1
+  product: Step by step guide
+  version: 
   folders:
 
   - title:
@@ -19,9 +19,9 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
-    output: web, pdf
-    folderitems:
+ # - title: Overview
+ #   output: web, pdf
+ #   folderitems:
 
     - title: Get started
       url: /index.html
