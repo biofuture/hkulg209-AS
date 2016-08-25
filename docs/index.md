@@ -1,5 +1,5 @@
 ---
-title: Getting started with the Documentation Theme for Jekyll
+title: Getting started with the steps to reconstruct metagenomics species
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar

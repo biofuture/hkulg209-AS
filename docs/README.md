@@ -1,3 +1,3 @@
-## Jekyll Documentation theme
+## Instructions of how to construct the gene catalog from global activated sludge samples.
 
-Build the site to see the instructions for using it. Or just go here: [http://idratherbewriting.com/documentation-theme-jekyll/](http://idratherbewriting.com/documentation-theme-jekyll/)
+Detail step by step instructions, refer to [[ http://biofuture.github.io/hkulg209-AS/ ]]
