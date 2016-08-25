@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Step by step guide
-  version: 
+#  version: 
   folders:
 
   - title:
@@ -19,12 +19,12 @@ entries:
       output: pdf
       type: frontmatter
 
- # - title: Overview
- #   output: web, pdf
- #   folderitems:
+  - title: Overview
+    output: web, pdf
+    folderitems:
 
     - title: Get started
-      url: /index.html
+      url: /index.md
       output: web, pdf
       type: homepage
 
