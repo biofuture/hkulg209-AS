@@ -1,56 +1,23 @@
 ---
-title: Getting started with the steps to reconstruct metagenomics species
+title: Multi-metagenomics samples analysis
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: This document will give a step by step instruction to analyze a group of envrionmental metagenomics samples using metagenomics profile (MetaP v0.1).
 ---
 
-## Download or clone the theme
+## Clone MetaP to local computer
 
-First download or clone the theme from the [Github repo](https://github.com/tomjohnson1492/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense.
+First download or clone the source code from the [Github repo](https://github.com/tomjohnson1492/documentation-theme-jekyll).
 
-## Build this theme
+## Prepare your multi-metagenomics samples
 
-If you're used to running Jekyll sites, you can type the normal jekyll command, `jekyll serve`, to build the Jekyll theme. However, if you're a new Jekyll user or if you run into issues, see the following two topics:
 
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
-
-## Customize the Gemfile
-
-The Gemfile is how project dependencies are managed. This project doesn't have any dependencies beyond core Jekyll. 
-
-Open the Gemfile (in any text editor) in the Jekyll doc theme project with the following command:
+## Quality control
 
 ```
 open Gemfile
-```
-
-The theme's gemfile looks as follows:
-
-```
-# A sample Gemfile
-source "https://rubygems.org"
-
-# gem "rails"
-gem 'github-pages'
-gem 'jekyll'
-```
-
-If you're publishing on Github Pages, leave the `github-pages` gem there. But if not, remove `github-pages` because Github sometimes has dependencies that conflict with the latest versions of the Jekyll gem and Kramdown, which can be frustrating.
-
-Use Bundler to install all the needed Ruby gems:
-
-```
-bundle install
-```
-
-Now run Jekyll serve to build the theme:
-
-```
-jekyll serve
 ```
 
 ## Configure the sidebar
